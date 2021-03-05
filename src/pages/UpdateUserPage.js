@@ -1,7 +1,6 @@
 import React, { useMemo } from 'react'
 
-import UserForm from '../components/UserForm'
-import { UpdateUserProvider, useUpdateUser } from '../contexts/UpdateUserContext'
+import { UserForm, UpdateUserProvider, useUpdateUser } from '../components/UserForm'
 
 const UpdateUserPage = () => {
   // const { loading, error, data } = useQuery(USER_ID_QUERY, {..})

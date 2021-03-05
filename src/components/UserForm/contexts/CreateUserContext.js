@@ -2,7 +2,7 @@ import React, { createContext, useCallback, useContext } from 'react'
 
 import { useUserForm } from '../hooks/useUserForm'
 
-const CreateUserContext = createContext()
+export const CreateUserContext = createContext()
 
 export const CreateUserProvider = (props) => {
   const { initialState, children } = props
@@ -28,5 +28,3 @@ export const CreateUserProvider = (props) => {
 }
 
 export const useCreateUser = () => useContext(CreateUserContext)
-
-export default CreateUserContext

@@ -1,7 +1,6 @@
 import React, { useMemo } from 'react'
 
-import UserForm from '../components/UserForm'
-import { CreateUserProvider, useCreateUser } from '../contexts/CreateUserContext'
+import { UserForm, CreateUserProvider, useCreateUser } from '../components/UserForm'
 
 const CreateUserPage = () => {
   const initialData = useMemo(
